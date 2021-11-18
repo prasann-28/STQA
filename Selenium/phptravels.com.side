@@ -1,0 +1,1868 @@
+{
+  "id": "9012708b-8cb6-4c1b-a8b4-88a6109d8925",
+  "version": "2.0",
+  "name": "https://phptravels.com/demo",
+  "url": "https://phptravels.com",
+  "tests": [{
+    "id": "b2f9158a-9a7e-4191-99f9-3c677613d19e",
+    "name": "login",
+    "commands": [{
+      "id": "94e3c3d8-56cb-46bc-82d2-8420c4004f4c",
+      "comment": "",
+      "command": "open",
+      "target": "/demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc7bd21b-02f9-416a-84a5-49b3d21a4e56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5b691e2-bda0-4417-afcf-1ed9f6fbaaac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5355",
+      "windowTimeout": 2000
+    }, {
+      "id": "34ea429b-d22e-43a6-8978-91e3dc0a6a67",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dfb40b6-799a-4eaf-9554-7a60b36bae42",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5355}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb19de99-0141-4db7-827d-ad0ce1396ef3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26c21ffd-b5ea-42e2-bfd6-f53dccf45e84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) .col-md-10",
+      "targets": [
+        ["css=.wow:nth-child(2) .col-md-10", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b82b65-1efe-4fb9-9eb8-532905d722f3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5355}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46132978-cec1-4a1a-a524-a7660ab8a653",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fed3a4-1446-443f-9df6-5b7fe9cdf323",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "7fcaf590-6874-4215-9304-60122fe4c06a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e433edc-695a-4c90-ae46-7796a67dee3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) .col-md-10",
+      "targets": [
+        ["css=.wow:nth-child(2) .col-md-10", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0980de1-4458-4cc1-9a4a-828cffd03dad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5355}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51d78e61-b907-4ba5-adba-3b947ec79375",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af6af94c-a1e6-4362-bd67-96e20381c3ff",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "7b1d4064-cb5f-459e-9222-a5307eb621a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default > .ladda-label",
+      "targets": [
+        ["css=.btn-default > .ladda-label", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7d64edd-d6cb-4aaf-b7c7-5be9c65f0f16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.sidebar-menu > li:nth-child(5) > .waves-effect", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logout')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/account/logout')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abbd9017-898e-4edf-8667-5e3a000f2ace",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.sidebar-menu > li:nth-child(5) > .waves-effect", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logout')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/account/logout')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "712e1c32-b34e-4a40-ab13-3df7c60141ae",
+    "name": "update profile",
+    "commands": [{
+      "id": "4a6bf4c1-ec78-4d77-bb12-59f216f8b5c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b68ba53-ec3b-4ce5-931e-a782bcd8add6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4e73af1-a6d7-4d3d-a07f-64c38be4a328",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf8de08-2d15-44f2-8b61-b6095c8914ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5f449c1-dbec-432f-8801-f9ce4aca2cf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5421",
+      "windowTimeout": 2000
+    }, {
+      "id": "952848f9-84a1-4e2b-962d-11dbcfab127f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5421}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb988f74-431d-4924-9200-b32884acba61",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d45956c-9d4a-413e-b1cd-cce6247227ca",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "6e2e8078-fc2c-4189-b7fa-97741d3e8687",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e028c275-3aa0-473e-9901-0325eb4dcc1e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46abab0a-189a-48a2-ad62-6f2616268f55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ecd18f7-877b-4422-8cf2-e68b41b4458e",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "c02c5464-0fdd-481b-8e20-a36f0188c65e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "489638d2-9556-49bc-b20b-53e99192886d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Profile",
+      "targets": [
+        ["linkText=My Profile", "linkText"],
+        ["css=.sidebar-menu > li:nth-child(4) > .waves-effect", "css:finder"],
+        ["xpath=(//a[contains(text(),'My Profile')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/account/profile')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf262cd-1d40-4b78-ba58-ee01cc16cd91",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=tr:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e23491a-5c13-4485-bd14-a20a1c34a77e",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=tr:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[3]/div/input", "xpath:position"]
+      ],
+      "value": "55555"
+    }, {
+      "id": "dce55fb5-7674-47d5-9cb9-7bb4495536b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-box",
+      "targets": [
+        ["css=.btn-box", "css:finder"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf54a1ae-c117-4403-8d83-17a74e17f608",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.theme-btn:nth-child(1)",
+      "targets": [
+        ["css=.theme-btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c25c971-07ca-4c6e-b77d-8c97c9e8f8c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-btn:nth-child(1)",
+      "targets": [
+        ["css=.theme-btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8460aae6-4d6c-4cb1-ae79-9e8168d0601b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.sidebar-menu > li:nth-child(5) > .waves-effect", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logout')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/account/logout')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c8d42467-2db9-4abb-93b1-06334ddf85c3",
+    "name": "search and logout",
+    "commands": [{
+      "id": "3998660a-793e-4760-864b-7a0e1647c1fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b256056c-28c5-46d4-b829-59ad2b3e2263",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38d32526-e71d-4bcb-a1fe-458e2de96616",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c035591-6f96-45fa-9897-fa39c529329c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6663",
+      "windowTimeout": 2000
+    }, {
+      "id": "30622d76-58eb-4191-bd52-4cf0c20cec4f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6663}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cbc1546-d575-492b-ad13-65d8d9e568e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fde11a2-2b88-4da3-bf6a-b70d64708093",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "b3729c0f-668b-4b4a-b5c0-10cac3b99d37",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7524336-b81c-4f06-84fa-9ba3641bf891",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45c98137-e299-43f4-892f-5ff24b97140b",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "a40219f3-640a-4286-beb5-eb6989725725",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "779c49c0-2f19-4dfe-842b-ebf785f64f0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hotels",
+      "targets": [
+        ["linkText=Hotels", "linkText"],
+        ["css=nav > ul > li:nth-child(2) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Hotels')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/hotels')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hotels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "206e4b07-4f8c-4b74-9ba5-a4207b58b0d2",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.select2-selection",
+      "targets": [
+        ["css=.select2-selection", "css:finder"],
+        ["xpath=//form[@id='hotels-search']/div/div/div/div/div/div/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ed66d2-b5f9-49bb-9029-23842b74bfcf",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04bd87a3-3602-4e5e-85cd-31a98b4f90d2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Kansas"
+    }, {
+      "id": "87035909-dafc-4fd4-9033-d9cb5fe90ba0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bca5d46c-d79a-4425-8984-3f1d763d9a87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda-label",
+      "targets": [
+        ["css=.ladda-label", "css:finder"],
+        ["xpath=//button[@id='submit']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e75675-4583-48be-b538-4edde45c2682",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd9e9fe5-0540-48ae-9efb-ddbc9368a033",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/account/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09916b67-31b4-43d1-934f-ec0835652672",
+    "name": "HotelBooking",
+    "commands": [{
+      "id": "24bff7ab-ee5e-4121-96e8-96ecf654e286",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aec42ecf-fff9-44a1-bb85-521e606bab2c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "330dc25d-0f46-4d28-bf59-7b1b8d5cc486",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb1c91e7-afbf-4286-a569-0ae379b734e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2583",
+      "windowTimeout": 2000
+    }, {
+      "id": "6158ffe0-fdd2-47bd-8795-e39cd186f6c5",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "637d65c4-db7a-4023-981a-40bee7d54723",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2583}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c38ef040-6b8a-4a90-87fe-51ec9ab02fa5",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5cb7d0f-593f-44c7-804d-67f69def4cb5",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "7896c94d-e098-4f93-8989-1b54b5045266",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c74de830-1991-4486-860a-d97c5531c012",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ec77f47-9907-4404-8fd9-9a70e729aa79",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "cf2a15f6-dfef-446c-aaf2-078ca8e0e1f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3bfde50-ae69-4c8e-bb73-7c56340c3a2e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hotels",
+      "targets": [
+        ["linkText=Hotels", "linkText"],
+        ["css=nav > ul > li:nth-child(2) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Hotels')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/hotels')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hotels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4dd483f-69d8-421c-a178-6df79cb096a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rendezvous Hotels",
+      "targets": [
+        ["linkText=Rendezvous Hotels", "linkText"],
+        ["css=.owl-item:nth-child(6) .card-title > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Rendezvous Hotels')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/en/usd/hotel/singapore/rendezvous-hotels/40/19-11-2021/20-11-2021/1/2/0/1/IN/IN/0')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rendezvous Hotels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5b4473-8061-4511-b667-56e1134dec7e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-area > .header-top-bar .header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-area > .header-top-bar .header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f35e37-3ddd-437a-8330-55be60de8743",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-area > .header-top-bar .header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-area > .header-top-bar .header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4af66239-8790-4644-9cf9-ea8e9949da0a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-area > .header-top-bar .header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-area > .header-top-bar .header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8e1f45-ff1b-4a9a-8687-7025b895cfb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/account/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7e2f5660-e566-4488-a0ba-c6ca98d1f097",
+    "name": "FlightBooking",
+    "commands": [{
+      "id": "a75236b8-ce14-4a53-830b-0a90c3101f89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f9d3e0-6f5d-4e53-86ec-7f8d32db9322",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "663b73d8-6cc4-4538-b93f-c01471060e2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37fc08d5-2834-4cd6-a9cb-bab83aab6632",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8677",
+      "windowTimeout": 2000
+    }, {
+      "id": "afd34ebb-cc67-4c64-8ec5-da8bbcb383b4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8677}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0b5de17-ab2b-4b32-a4f3-dfd517aad4e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c5672f-72a6-4cac-99e6-b54b81e65e9c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "0a9b0930-ce4d-4e26-81f8-f685bfd04bc7",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c06cd88b-cf6d-45da-9be0-ab561afb9e0c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "097a40ba-a0a0-4601-b2b2-c5eeae335152",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dad14e4a-9099-49f9-8f74-00e613d4f975",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=nav > ul > li:nth-child(3) > .waves-effect",
+      "targets": [
+        ["css=nav > ul > li:nth-child(3) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'flights')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/flights')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa90fff-b0e5-4306-83bc-4ba880eac6c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=nav > ul > li:nth-child(3) > .waves-effect",
+      "targets": [
+        ["css=nav > ul > li:nth-child(3) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'flights')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/flights')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e69259b-8b2f-4dac-a67e-0d6031029de7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) h6",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) h6", "css:finder"],
+        ["xpath=//div[@id='new-york']/div/div/a/div/div/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Srilanka Airways')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd5e3bd-ec46-4442-871a-2aeb26f769ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete",
+      "targets": [
+        ["id=autocomplete", "id"],
+        ["name=from", "name"],
+        ["css=#autocomplete", "css:finder"],
+        ["xpath=//input[@id='autocomplete']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fd5d257-0fa4-45d2-995c-a0eed4a39abc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.autocomplete-result:nth-child(1) > .autocomplete-location",
+      "targets": [
+        ["css=.autocomplete-result:nth-child(1) > .autocomplete-location", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div/div/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8936b320-2255-4c8d-a653-e59c21c1ca82",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete2",
+      "targets": [
+        ["id=autocomplete2", "id"],
+        ["name=to", "name"],
+        ["css=#autocomplete2", "css:finder"],
+        ["xpath=//input[@id='autocomplete2']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a588b6a-eec2-44ba-b61e-ad2c75b54daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.autocomplete-result:nth-child(1) strong",
+      "targets": [
+        ["css=.autocomplete-result:nth-child(1) strong", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div/div/div[2]/div/div/div/div/div/div/strong", "xpath:idRelative"],
+        ["xpath=//div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Colombo Ratmalana')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ed9328-294a-4fd7-91ec-850fd9fedc97",
+      "comment": "",
+      "command": "click",
+      "target": "id=departure",
+      "targets": [
+        ["id=departure", "id"],
+        ["name=depart", "name"],
+        ["css=.g-0 #departure", "css:finder"],
+        ["xpath=//input[@id='departure']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82dc386d-edc7-4fe2-abd2-5445080c01c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker:nth-child(28) tr:nth-child(3) > .day:nth-child(7)",
+      "targets": [
+        ["css=.datepicker:nth-child(28) tr:nth-child(3) > .day:nth-child(7)", "css:finder"],
+        ["xpath=//tr[3]/td[7]", "xpath:position"],
+        ["xpath=//td[contains(.,'20')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e679103b-22b3-4efd-a167-00fd3ef10b14",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.guest_flights",
+      "targets": [
+        ["css=.guest_flights", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div[3]/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf02b3bc-70d9-4e62-9ddd-d3ec3f56af04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.guest_flights",
+      "targets": [
+        ["css=.guest_flights", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div[3]/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a71acef-5f37-46f0-8a75-2fbbc08c3d93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.guest_flights",
+      "targets": [
+        ["css=.guest_flights", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div[3]/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c848723-cc17-4ce6-aefc-06931df4094a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(1) .qtyInc > .la",
+      "targets": [
+        ["css=.dropdown-item:nth-child(1) .qtyInc > .la", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div[3]/div/div/div/div/div/div/div/div[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "309fc0fc-26da-4851-9425-fb5ce11a15f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdi-search",
+      "targets": [
+        ["css=.mdi-search", "css:finder"],
+        ["xpath=//button[@id='flights-search']/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ccf719f-4a1a-4702-86ab-e19ab16e4581",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17dbc774-2433-41d9-9a31-29f60db2e2d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/account/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcf93a52-893f-498c-a061-39029d23d42f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/account/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d252a299-c1f3-448f-940a-17a734925f4d",
+    "name": "Cars",
+    "commands": [{
+      "id": "0b0b8d56-35c1-447b-9b53-ad9504472665",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16855c2b-2af0-4468-83ce-537d72f64b3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55398781-7367-4199-a7ac-a364ba71dc88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abbdd448-5ecd-4be0-b6ba-18de6ce6f9f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9009",
+      "windowTimeout": 2000
+    }, {
+      "id": "312c3555-c980-42a5-a4e3-5bb1b0f40c9b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9009}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1b5fb88-11ab-4644-b40e-38d79d37bde4",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5816714a-534e-44c7-a5e3-c35e13395034",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "4b9146bc-0376-4ba6-bd58-df075d8c2318",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c0446b7-1934-449f-8227-fa3adeda09ad",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d23573ab-624b-44b2-8f76-201530329ffe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "788a4826-db20-442e-a3e4-59ad5f43104b",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "58e4d9ea-d85e-42d3-b5f2-784fc357f588",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2771b5ae-9e02-42a0-b351-6ad0ac165080",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=nav li:nth-child(5) > .waves-effect",
+      "targets": [
+        ["css=nav li:nth-child(5) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'cars')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/cars')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66cbeacb-c78c-4d56-a794-9726816b1f5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=nav li:nth-child(5) > .waves-effect",
+      "targets": [
+        ["css=nav li:nth-child(5) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'cars')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/cars')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728a1004-394b-43f5-8e8f-e294f76aecd2",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=select2-carfrom-container",
+      "targets": [
+        ["id=select2-carfrom-container", "id"],
+        ["css=#select2-carfrom-container", "css:finder"],
+        ["xpath=//span[@id='select2-carfrom-container']", "xpath:attributes"],
+        ["xpath=//form[@id='cars-search']/div/div[2]/div/div/div/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3381369-7f1b-4fac-8d1b-a84f9d1cf733",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "026ac319-b032-42b9-bbc8-fc30a2308168",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Pune"
+    }, {
+      "id": "c5f57a75-6b4b-4709-9962-feac8459e198",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a306e592-591d-4ab0-9303-750ecafa6beb",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=select2-carto-container",
+      "targets": [
+        ["id=select2-carto-container", "id"],
+        ["css=#select2-carto-container", "css:finder"],
+        ["xpath=//span[@id='select2-carto-container']", "xpath:attributes"],
+        ["xpath=//form[@id='cars-search']/div/div[2]/div/div/div[2]/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38d9f9d9-6bfb-493e-8a5a-1c962ba60e20",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "717ccba2-d7ee-4318-a413-f1c5637a12b8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Mumbai"
+    }, {
+      "id": "87a700db-2cca-46df-84f0-b3e64450afb2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c79dd3dd-0df4-4789-83a8-9b7a2a561997",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='cars-search']/div/div[2]/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c821df1-8b70-4f6a-af74-99fd888f2d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11d6fa7c-af96-4c33-b853-fbc061ac714d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/account/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6dccc82a-7420-4e03-b725-27b090cfaf1d",
+    "name": "Visa",
+    "commands": [{
+      "id": "38d09563-64e0-4cdd-ba93-afe2e3fd048c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01dec232-a976-4623-90ba-197c8e528d59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x819",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94e06d6f-61f6-40cb-87bc-e4b86ba2aefd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=.lvl-0:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://phptravels.com/demo')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a1c618f-037b-4755-b923-070a92c59c8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wow:nth-child(2) small:nth-child(1)",
+      "targets": [
+        ["css=.wow:nth-child(2) small:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='Main']/section/div/div/div[2]/div/div/div[2]/div/div/div/div/a/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'http://www.phptravels.net/login')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2586",
+      "windowTimeout": 2000
+    }, {
+      "id": "20457428-c29f-4d46-b11b-870dda487d40",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2586}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9edd5253-239d-4183-b431-8120984a4ef9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "917b87e9-baef-4c1d-b305-501a10882d7a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin@phptravels.com"
+    }, {
+      "id": "033797f3-92f1-41d5-a27f-f7d3963a7ad7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "demoadmin"
+    }, {
+      "id": "a8044dc9-9c2c-41d7-aaa6-3eea91ab2c7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84bdc5cf-9c0c-498a-b158-1418687ecfa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=nav li:nth-child(6) > .waves-effect",
+      "targets": [
+        ["css=nav li:nth-child(6) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'visa')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/visa')]", "xpath:href"],
+        ["xpath=//nav/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8456b10-249a-407c-89b2-556c56bb95f7",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "xpath=//form[@id='visa-submit']/div/div/div/div/div/div/span/span/span/span[2]/b",
+      "targets": [
+        ["css=.select2-container--below b", "css:finder"],
+        ["xpath=//form[@id='visa-submit']/div/div/div/div/div/div/span/span/span/span[2]/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fbcb353-408b-4857-95eb-37eec40e8067",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=select2-from_country-container",
+      "targets": [
+        ["id=select2-from_country-container", "id"],
+        ["css=#select2-from_country-container", "css:finder"],
+        ["xpath=//span[@id='select2-from_country-container']", "xpath:attributes"],
+        ["xpath=//form[@id='visa-submit']/div/div/div/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f2f1e36-dbbb-4f6f-a61e-26e3931c4190",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fecf8607-6d8a-4a4d-b59f-d19b319537cd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "India"
+    }, {
+      "id": "68c81bf9-a234-478c-8d30-5c19d943a494",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a65766ae-6189-4e0e-9e23-5f6926a84092",
+      "comment": "",
+      "command": "click",
+      "target": "css=#select2-to_country-container",
+      "targets": [
+        ["id=select2-to_country-container", "id"],
+        ["css=#select2-to_country-container", "css:finder"],
+        ["xpath=//span[@id='select2-to_country-container']", "xpath:attributes"],
+        ["xpath=//form[@id='visa-submit']/div/div/div[2]/div/div/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a76992ad-8682-4a92-bafe-198bc9b45c3b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Bermuda"
+    }, {
+      "id": "ea485946-fb32-41d2-852f-55f0e235364b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0986cac1-5a81-4dd3-87ac-475daa0f83ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='visa-submit']/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "214f0d6c-2654-4133-9cd7-de301e8a8c53",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='visa-submit']/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2b3ced-2059-46b2-a9b1-5cb02954a7a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=.col-lg-6:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7265efd4-d208-4473-b8d3-b4b0b291c8ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=.col-lg-6:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Prasann"
+    }, {
+      "id": "63002426-d0fe-43fd-a86f-11003dac5c7b",
+      "comment": "",
+      "command": "click",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=.col-lg-6:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "245033d4-130f-4828-834e-eeb752205726",
+      "comment": "",
+      "command": "type",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=.col-lg-6:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Shimpi"
+    }, {
+      "id": "ed9397a3-efd9-4a08-9d9a-835d2076693d",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-lg-6:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1714579-1bd9-4d6d-ab9b-a29dd7088dcd",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.col-lg-6:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "agent@phptravels.com"
+    }, {
+      "id": "7b77d183-82de-4495-ab5e-dcb5c2311a49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-6:nth-child(6) > .input-box",
+      "targets": [
+        ["css=.col-lg-6:nth-child(6) > .input-box", "css:finder"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af78e509-d095-4386-8de2-5b8a84dd9531",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.col-lg-6:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acb1cdb-fdb1-4fad-8dcc-ff4470763bdd",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.col-lg-6:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "9075029921"
+    }, {
+      "id": "b44d1f4c-6354-4988-8426-952cb64b724d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b0747d-866e-4769-ad64-fa8ee1ba6949",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b59caad8-7baa-45f6-9547-b5fb24cf85f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-right-action:nth-child(3) #currency",
+      "targets": [
+        ["css=.header-right-action:nth-child(3) #currency", "css:finder"],
+        ["xpath=(//button[@id='currency'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8841470-464a-49de-9d80-d46c3fae6408",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.phptravels.net/account/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad4cd7ab-a19e-4636-86ba-771c6174ac7b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b2f9158a-9a7e-4191-99f9-3c677613d19e"]
+  }],
+  "urls": ["https://phptravels.com/"],
+  "plugins": []
+}

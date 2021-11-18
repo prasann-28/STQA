@@ -1,0 +1,130 @@
+{
+  "id": "ecc7c5f0-0b0c-45c7-9e25-ffb3b3d35c32",
+  "version": "2.0",
+  "name": "dapptest",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "e4fc86ed-0ebe-4e56-a95d-8c32ab88f247",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d260fc30-49df-4fa5-913e-410a61dc190f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8a56dcd-8f7e-4cfb-bd92-53739ac5369a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chevron",
+      "targets": [
+        ["css=.chevron", "css:finder"],
+        ["xpath=//div[@id='__next']/body/div/div[2]/button/div[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8e19bc-2ec1-401a-8208-df2a1e139c1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-input-control-first-name",
+      "targets": [
+        ["id=form-input-control-first-name", "id"],
+        ["css=#form-input-control-first-name", "css:finder"],
+        ["xpath=//input[@id='form-input-control-first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/body/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Prasann"
+    }, {
+      "id": "5e8fb3bb-6e8a-4dbe-8352-b1365a0e5b58",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-input-control-last-name",
+      "targets": [
+        ["id=form-input-control-last-name", "id"],
+        ["css=#form-input-control-last-name", "css:finder"],
+        ["xpath=//input[@id='form-input-control-last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/body/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Shimpi"
+    }, {
+      "id": "067413ac-4b14-4bb3-b2ff-d0fac9eb5b59",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-select-control-gender",
+      "targets": [],
+      "value": "Male"
+    }, {
+      "id": "0dd07be6-6c2d-4369-bf4f-7fff16f2b371",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-input-control-adhaar",
+      "targets": [
+        ["id=form-input-control-adhaar", "id"],
+        ["css=#form-input-control-adhaar", "css:finder"],
+        ["xpath=//input[@id='form-input-control-adhaar']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/body/div/form/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "779278737777"
+    }, {
+      "id": "e952f014-963a-42f2-aa0b-7646e5142caf",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-input-control-mobile-number",
+      "targets": [
+        ["id=form-input-control-mobile-number", "id"],
+        ["css=#form-input-control-mobile-number", "css:finder"],
+        ["xpath=//input[@id='form-input-control-mobile-number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/body/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "9075029921"
+    }, {
+      "id": "112352b8-0c61-4b19-b713-38fb1268083f",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-input-control-error-email",
+      "targets": [
+        ["id=form-input-control-error-email", "id"],
+        ["css=#form-input-control-error-email", "css:finder"],
+        ["xpath=//input[@id='form-input-control-error-email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/body/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ps@gm.com"
+    }, {
+      "id": "e8d13e76-7f8e-413a-b04f-8fb82f535a8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1)",
+      "targets": [
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/body/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get Your OTP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28fead98-fd13-47c3-810f-78f38ddb353a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "68baf089-e40b-4c10-adf5-ce211e258847",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4fc86ed-0ebe-4e56-a95d-8c32ab88f247"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
